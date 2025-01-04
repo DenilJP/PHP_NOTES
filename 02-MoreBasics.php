@@ -38,6 +38,8 @@
         }
         echo "<br>";
         echo "<hr>";
+        echo "<hr>";
+
         
         // <====================ARRAY===================>
 
@@ -212,6 +214,87 @@
         print_r($array);
         echo "<br>";
         echo "<br>";
+
+        echo "<hr>";
+        echo "<hr>";
+
+        // <====================FOR LOOP===================>
+        
+        echo "FOR LOOP :";
+        echo "<br>";
+        echo "<br>";
+        
+        //to print numbers from 0 to 9
+        echo "Printing numbers from 0 to 9 using for loop :==========><br> ";
+        for($i=0;$i<=9;$i++){
+            echo $i;
+            echo "<br>";
+        }
+        echo "<br>";
+        
+        // <====================WHILE LOOP===================>
+        
+        echo "WHILE LOOP :";
+        echo "<br>";
+        echo "<br>";
+        
+        //to print numbers from 0 to 9
+        echo "Printing numbers from 0 to 9 using while loop :==========><br> ";
+        $i=0;
+        while($i<=9){
+            echo $i;
+            echo "<br>";
+            $i++;
+        }
+        echo "<br>";
+        
+        // <====================DO-WHILE LOOP===================>
+        echo "<br>";
+        echo "DO-WHILE LOOP :";
+        echo "<br>";
+
+        //to print numbers from 0 to 9
+        echo "Printing numbers from 0 to 9 using do-while loop :==========><br> ";
+        $i=50;
+        do{
+            echo $i;
+            echo "<br>";
+            $i++;
+        }while($i<=9);
+        echo "<br>";
+        
+        // <====================FUNCTION===================>
+        echo "<br>";
+        echo "FUNCTION :";
+        echo "TWO TYPE OF FUNCTION : 1. BUILT-IN , 2.USER-DEFINE ";
+        echo "<br>";
+        
+        //function to print numbers from 0 to 9
+        function deni(){
+            $deni="Denil Jayeshbhai Patel";
+            echo $deni;
+        }
+        deni();
+        echo "<br>";
+
+        //function to print numbers from user
+
+        function deni_user($num){
+            echo "Your Number Is :";
+            echo $num;
+        }
+        deni_user(10);
+        echo "<br>"; 
+
+        // // <====================RETURN===================>
+        // echo "<br>";
+        // echo "RETURN :";
+        // echo "<br>";
+        // echo "<br>";
+        
+        // //function to return sum of two numbers
+
+
 
     ?>
     </div>
